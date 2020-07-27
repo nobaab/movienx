@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "556629300354",
+    "firebase_url": "https://movie-nx.firebaseio.com",
+    "project_id": "movie-nx",
+    "storage_bucket": "movie-nx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556629300354:android:96a330f3bce57215e9509b",
+        "android_client_info": {
+          "package_name": "com.mozammel.movienx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556629300354-rctrcghp2kikl13r6rqvfcbtasi9abhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB99KKKbnLIGCDOXtxoKWF9aqkH4oVakCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556629300354-rctrcghp2kikl13r6rqvfcbtasi9abhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
