@@ -1,43 +1,42 @@
 {
   "project_info": {
-    "project_number": "473248110730",
-    "firebase_url": "https://streamapp-a8a5c.firebaseio.com",
-    "project_id": "streamapp-a8a5c",
-    "storage_bucket": "streamapp-a8a5c.appspot.com"
+    "project_number": "556629300354",
+    "firebase_url": "https://movie-nx.firebaseio.com",
+    "project_id": "movie-nx",
+    "storage_bucket": "movie-nx.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:473248110730:android:79410c8afa97ff06",
+        "mobilesdk_app_id": "1:556629300354:android:96a330f3bce57215e9509b",
         "android_client_info": {
           "package_name": "com.mozammel.movienx"
         }
       },
       "oauth_client": [
         {
-          "client_id": "473248110730-gphgbgea67f7p4bm9jgjaquda9b3cra8.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mozammel.movienx",
-            "certificate_hash": "e44c5abbae72cff4e2ec8fe8f5f8ea63fa87ad7d"
-          }
-        },
-        {
-          "client_id": "473248110730-lubnma4rlu3fa9rjs7h1jksstf4m5l6m.apps.googleusercontent.com",
+          "client_id": "556629300354-rctrcghp2kikl13r6rqvfcbtasi9abhh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAYbTwjfeZ7254VKjBw4JIRk18EbTYVzc4"
+          "current_key": "AIzaSyB99KKKbnLIGCDOXtxoKWF9aqkH4oVakCM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "473248110730-lubnma4rlu3fa9rjs7h1jksstf4m5l6m.apps.googleusercontent.com",
+              "client_id": "556629300354-rctrcghp2kikl13r6rqvfcbtasi9abhh.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "556629300354-nph3b5fv7aole6b5j9m13olnh0h8o5li.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mozammel.movienx"
+              }
             }
           ]
         }
