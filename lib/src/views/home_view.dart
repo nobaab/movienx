@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
+import 'package:streamapp/src/update/fetch.dart';
 import '../helpers/lang.dart';
 import '../helpers/screen.dart';
 import '../models/settings_model.dart';
@@ -10,7 +11,6 @@ import '../helpers/search.dart';
 import '../views/browser_view.dart';
 import '../views/kids_view.dart';
 import '../views/index_view.dart';
-import '../views/livetv_view.dart';
 import '../views/movies_view.dart';
 import '../views/series_view.dart';
 
@@ -35,7 +35,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
     MoviesView(),
     SeriesView(),
     KidsView(),
-    LivetvView()
+    UpdateFetch()
   ];
 
   @override
@@ -144,9 +144,9 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
           if (settings.kids)
             BottomNavigationBarItem(
                 icon: Icon(Icons.child_care), title: Text(Lang.kids)),
-          if (settings.livetv)
-            BottomNavigationBarItem(
-                icon: Icon(Icons.live_tv), title: Text(Lang.livetv))
+          BottomNavigationBarItem(
+              icon: Icon(Icons.update), title: Text('Update')),
+
         ]);
   }
 

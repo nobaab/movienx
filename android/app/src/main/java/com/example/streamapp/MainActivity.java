@@ -1,4 +1,4 @@
-package com.mozammel.movienx;
+package com.nobaab.movienx;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

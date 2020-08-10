@@ -30,7 +30,9 @@ void main() async {
 
 class StreamApp extends StatefulWidget {
   final Settings settings;
+
   StreamApp(this.settings);
+
   @override
   _AppState createState() => _AppState();
 }
@@ -67,7 +69,9 @@ class _AppState extends State<StreamApp> {
         title: widget.settings.appName,
         color: widget.settings.appHeaderRecentTaskColor,
         theme: ThemeData(
-          brightness: (widget.settings.appColorDark) ? Brightness.dark : Brightness.light,
+          brightness: (widget.settings.appColorDark)
+              ? Brightness.dark
+              : Brightness.light,
           primaryColor: widget.settings.appPrimaryColor,
           splashColor: widget.settings.appSplashColor.withOpacity(0.5),
           accentColor: widget.settings.appPrimaryColor,
@@ -91,7 +95,8 @@ class _AppState extends State<StreamApp> {
           ),
           iconTheme: IconThemeData(color: widget.settings.iconsColor),
           snackBarTheme: SnackBarThemeData(
-            backgroundColor: widget.settings.appBackgroundColor.withOpacity(0.5),
+            backgroundColor:
+                widget.settings.appBackgroundColor.withOpacity(0.5),
             contentTextStyle: TextStyle(color: widget.settings.textColor),
           ),
           scaffoldBackgroundColor: widget.settings.appBackgroundColor,
